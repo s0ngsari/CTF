@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE pov SYSTEM "/usr/share/cgc-docs/replay.dtd">
+<pov>
+    <cbid>service</cbid>
+    <replay>
+    <read><delim>\x0a</delim><match><data>What is your message?\x0a</data></match></read>
+    <write><data>H4PPY_S3CUINSID3\x0a</data></write>
+    <read><delim>\x0a</delim><match><data>+ Are you serious?\x0a</data></match></read>
+    <write><data>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\x0a</data></write>
+    <read><delim>\x0a</delim><match><data>- Why so serious?\x0a</data></match></read>
+    </replay>
+</pov>
